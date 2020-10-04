@@ -33,7 +33,7 @@ const Navbar = () => {
                     <NotificationsIcon />
                 </Button>
                 <Button color="inherit" className={classes.languageFlag} onClick={e => setLanguageButtonEl(e.currentTarget)}>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Flag_of_the_United_Kingdom.svg" alt="United Kingdom Flag" />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Flag_of_the_United_Kingdom.svg" alt="United Kingdom Flag" style={{width: "100%"}} />
                 </Button>
                 <Menu
                 anchorEl={languageButtonEl}
